@@ -25,7 +25,8 @@ RDEPEND="
 	>=dev-python/requests-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-1.15.1[${PYTHON_USEDEP}]
 	=net-misc/gns3-server-$PVR[${PYTHON_USEDEP}]
-	dev-python/PyQt5[gui,network,svg,widgets,${PYTHON_USEDEP}]
+	dev-python/PyQt5[gui,network,svg,widgets,websockets,${PYTHON_USEDEP}]
+	dev-qt/qtwebsockets
 "
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 

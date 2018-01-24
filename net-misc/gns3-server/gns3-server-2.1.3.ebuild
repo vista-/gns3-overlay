@@ -32,7 +32,8 @@ RDEPEND=">=app-emulation/dynamips-0.2.12
 		>=dev-python/python-zipstream-1.1.4[${PYTHON_USEDEP}]
 		>=www-servers/tornado-3.1.1[${PYTHON_USEDEP}]
 		>=dev-python/typing-3.5.3.0[${PYTHON_USEDEP}]
-		>=dev-python/yarl-0.11.0[${PYTHON_USEDEP}]"
+		>=dev-python/yarl-0.11.0[${PYTHON_USEDEP}]
+		dev-python/prompt_toolkit[${PYTHON_USEDEP}]"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 
 src_prepare() {

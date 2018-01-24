@@ -20,11 +20,7 @@ RDEPEND="dev-libs/elfutils
 DEPEND="${RDEPEND}
 	app-arch/unzip"
 
-DOCS=( ChangeLog README RELEASE-NOTES )
-
-S="${WORKDIR}"
-
-PATCHES=( "${FILESDIR}/${PV}-docs.patch" )
+DOCS=( ChangeLog README.md RELEASE-NOTES )
 
 src_prepare() {
 	# comment out DYNAMIPS_FLAGS to respect CFLAGS
